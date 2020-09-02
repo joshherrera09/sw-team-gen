@@ -1,0 +1,23 @@
+{
+  "name": "sw-team-gen",
+  "version": "1.0.0",
+  "description": "Team Summary Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshherrera09/sw-team-gen.git"
+  },
+  "author": "Josh Herrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshherrera09/sw-team-gen/issues"
+  },
+  "homepage": "https://github.com/joshherrera09/sw-team-gen#readme"
+}
