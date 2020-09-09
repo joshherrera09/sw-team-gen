@@ -1,5 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require ('fs');
+const path = require("path");
+var render = require("./lib/htmlRender")
+const ouputDir = path.resolve(__dirname, "./output");
+
 
 const Manager = require('./lib/manager');
 const Intern = require('./lib/intern');
@@ -36,10 +40,11 @@ function addEmployee() {
                 addIntern();
                 break;
             // When user is done adding employees, the HTML will be generated and eployee array logged
-            case "Done adding employees":
+            default:
                 console.log(employees);
-                generateHTML(employees);
-                break;
+                // generateHTML(employees);
+                generateHTML(render(employees));
+                
         }
     })
 
@@ -166,5 +171,9 @@ function addEmployee() {
 // Calls the addEmployee() function to begin prompting
 addEmployee();
 
-// generates HTML for team summary
-function generateHTML() {};
+function generateHTML(html) {
+    fs.writeFile(path.join(__dirname, "output", "team.html"), html, function(err) {
+       if (err) throw err;
+        console.log('team.html created');
+    })
+}
