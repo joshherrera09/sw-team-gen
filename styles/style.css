@@ -6,6 +6,11 @@
     width: 100%;
 }
 
+.card-header {
+    background-color: maroon;
+    color: white;
+}
+
 .card:hover {
     transform: translateY(-2rem);
 }
@@ -14,20 +19,24 @@
 }
 
 .jumbotron {
-    background-color: firebrick;
+    background-color: dimgray;
     color: white;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .card-header {
     height: 150px;
+}
+
+li {
+    font-size: 14px;
 }
 
 
