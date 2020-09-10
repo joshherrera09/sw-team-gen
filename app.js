@@ -54,7 +54,7 @@ function addEmployee() {
             .prompt([
                 {
                     type: "input",
-                    message: "What is your name?",
+                    message: "What is your first name?",
                     name: "managerName"
                 },
                 {
@@ -94,7 +94,7 @@ function addEmployee() {
             .prompt([
                 {
                     type: "input",
-                    message: "What is your name?",
+                    message: "What is your first name?",
                     name: "engineerName"
                 },
                 {
@@ -134,7 +134,7 @@ function addEmployee() {
             .prompt([
                 {
                     type: "input",
-                    message: "What is your name?",
+                    message: "What is your first name?",
                     name: "internName"
                 },
                 {
