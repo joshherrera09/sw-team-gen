@@ -19,9 +19,9 @@ I built a software engineering team generator command line apllication that uses
 To begin setting up your development environment, you must first run `npm init` in the terminal, to set up a new npm package.  Once npm has been initialized, you must also run `npm i inquirer` in the terminal to install inquirer, which will allow the user to ask and validate questions to help generate the their teams HTML file.
 
 ## Usage
-[Team Generator Sample Video]
+[Team Generator Sample Video](https://github.com/joshherrera09/sw-team-gen/blob/master/software-team-generator.mov)
 
-[Generated Page Example]
+[Generated Page Example](https://github.com/joshherrera09/sw-team-gen/blob/master/functioning-app.mov)
 
 After initializing npm and installing Inquirer, the user must run `node app.js` in the terminal.  The user will be prompted with a series of questions that should be answered in relation to your team.  After completing the questions, the team.html will automatically be generated.
 
